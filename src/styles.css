@@ -3,40 +3,78 @@ body {
   margin: 0;
   padding: 0;
 }
-.nav-container {
-  padding: 20px 15px 0 15px;
-}
 
-.nav-text,
-.nav-buttons {
-  padding-top: 20px;
-}
-
-.nav-img {
-  padding-top: 10px;
-}
-.nav-container,
-.nav-text {
-  display: flex;
-  justify-content: space-around;
-  height: 60px;
-  margin: auto;
-}
 ul {
   margin: 0;
   padding: 0;
 }
 
 li {
-  list-style: none;
   display: inline;
+  list-style: none;
   padding: 10px;
 }
 
-.icon {
-  font-size: 12px;
-  border: solid 1px black;
-  border-radius: 100%;
+.nav-container {
+  padding: 0px 40px 0px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  margin: auto;
+}
 
-  padding: 15px;
+.nav-text {
+  font-size: 18px;
+}
+
+.navbar-text li {
+  margin: 0px 50px;
+}
+
+.icon {
+  font-size: 16px;
+  border: solid 1px black;
+  border-width: 1px;
+  border-radius: 9999px;
+  padding: 16px;
+  border-color: #494950;
+  color: #494950;
+  margin: 0px 6px 0px 6px;
+}
+.icon:hover {
+  background-color: #494950;
+  cursor: pointer;
+  color: white;
+}
+
+.icon-button {
+  padding: 16px;
+  border: solid 1px black;
+  background-color: #36363e;
+  color: white;
+  font-size: 16px;
+  border-width: 1px;
+  border-radius: 9999px;
+}
+
+.icon-button:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 5px 3px rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out 0.2s;
+}
+
+.main-img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cover-title {
+  text-align: center;
+  margin: 150px 150px 0px 0px;
+  font-size: 70px;
+}
+
+section {
+  background: url("media/hilux-double.jpg");
 }
