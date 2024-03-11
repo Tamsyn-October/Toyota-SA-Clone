@@ -416,6 +416,9 @@ ul .list:hover {
   color: #d1021e;
 }
 
+.col {
+  padding-bottom: 50px;
+}
 .btn-container {
   margin-left: -100px;
 }
