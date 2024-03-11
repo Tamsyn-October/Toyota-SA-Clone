@@ -438,3 +438,90 @@ ul .list:hover {
   cursor: pointer;
   transition: all ease-in-out 0.2s;
 }
+
+@media (max-width: 1000px) {
+  .nav-text,
+  .icon-btn,
+  .nav-container2,
+  .container-vehicles {
+    display: none;
+  }
+
+  .cover-title,
+  .title2 {
+    font-size: 35px;
+  }
+
+  .title {
+    font-size: 25px;
+  }
+  .specification-title {
+    font-size: 25px;
+    margin-top: 25px;
+  }
+  .title-text,
+  .title-text2 {
+    font-size: 20px;
+  }
+
+  .performance-text-container {
+    display: block;
+    margin: 0 50px;
+  }
+
+  .ptext1 {
+    font-size: 20px;
+  }
+
+  .perfomance-small-text {
+    font-size: 12px;
+    color: #8b8c90;
+    line-height: 2rem;
+  }
+
+  .btn1 {
+    font-size: 12px;
+    border: solid 1px black;
+    border-width: 1px;
+    border-radius: 9999px;
+    padding: 12px 15px;
+    border-color: #494950;
+    color: #494950;
+    background-color: white;
+  }
+
+  .btn2 {
+    padding: 12px 15px;
+    border: solid 1px black;
+    background-color: #36363e;
+    color: white;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    border-width: 1px;
+    border-radius: 9999px;
+  }
+
+  .footer-container {
+    display: block;
+  }
+  .col-list {
+    display: none;
+  }
+  .col-heading {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 30px 0px;
+  }
+  .heading1 {
+    padding-top: 50px;
+  }
+
+  .heading3 {
+    padding-bottom: 30px;
+  }
+  .btn-container {
+    display: none;
+  }
+}
