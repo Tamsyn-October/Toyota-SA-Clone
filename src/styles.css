@@ -20,7 +20,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
+  height: 90px;
   margin: auto;
 }
 
@@ -36,6 +36,23 @@ li {
   opacity: 0.8;
 }
 
+.nav-container2 {
+  padding: 0px 40px 0px 40px;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.nav-text2 {
+  color: white;
+}
+
+ul .list {
+  margin: 0 12px;
+}
 .icon {
   font-size: 16px;
   border: solid 1px black;
