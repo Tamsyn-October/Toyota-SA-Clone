@@ -32,13 +32,20 @@ li {
   margin: 0px 50px;
 }
 
+.navbar-text li:hover {
+  cursor: pointer;
+  color: #d1021e;
+  border-bottom: 3px solid #d1021e;
+  padding-bottom: 2px;
+}
+
 .nav-img {
   opacity: 0.8;
 }
 
 .nav-container2 {
   padding: 0px 40px 0px 40px;
-  width: 100%;
+  width: auto;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -52,7 +59,13 @@ li {
 
 ul .list {
   margin: 0 12px;
+  font-size: 15px;
 }
+ul .list:hover {
+  cursor: pointer;
+  color: #6a6e6e;
+}
+
 .icon {
   font-size: 16px;
   border: solid 1px black;
@@ -63,6 +76,7 @@ ul .list {
   color: #494950;
   margin: 0px 6px 0px 6px;
 }
+
 .icon:hover {
   background-color: #494950;
   cursor: pointer;
@@ -132,6 +146,15 @@ ul .list {
 }
 
 /*Section Legacy*/
+
+.specification-title {
+  color: #282830;
+  font-size: 40px;
+  line-height: 2rem;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
 .title-container {
   margin: 80px 45px 0px;
   height: 400px;
@@ -365,5 +388,53 @@ ul .list {
 .btn2:hover {
   cursor: pointer;
   box-shadow: 0 3px 5px 3px rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out 0.2s;
+}
+
+/*Footer Section*/
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #282830;
+}
+
+.col-heading {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 70px;
+}
+
+.col-list {
+  color: white;
+  font-size: 17px;
+}
+
+.col-list:hover {
+  cursor: pointer;
+  color: #d1021e;
+}
+
+.btn-container {
+  margin-left: -100px;
+}
+
+.icon-btn2 {
+  padding: 12px 20px;
+  background-color: white;
+  border: none;
+  color: #36363e;
+  font-size: 16px;
+  font-weight: 500;
+  border-width: 1px;
+  border-radius: 9999px;
+  margin-top: 70px;
+}
+
+.icon-btn2:hover {
+  background-color: #36363e;
+  color: white;
+  cursor: pointer;
   transition: all ease-in-out 0.2s;
 }
